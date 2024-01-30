@@ -61,13 +61,6 @@ nnoremap <Leader>l :wincmd l<CR>
 " coc.nvim global extensions
 let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-pyright', 'coc-java', 'coc-clangd']
 
-" Custom Key Bindings
-let mapleader = " "           " Set space as the leader key
-nnoremap <Leader>h :wincmd h<CR>
-nnoremap <Leader>j :wincmd j<CR>
-nnoremap <Leader>k :wincmd k<CR>
-nnoremap <Leader>l :wincmd l<CR>
-
 " Coc.nvim configurations
 " Use `[g` and `]g` to navigate diagnostics
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
