@@ -32,6 +32,10 @@ set encoding=utf-8            " Set default encoding to UTF-8
 " Color Scheme
 colorscheme desert
 
+" Enable termdebug
+:packadd termdebug
+let g:termdebug_wide = 1
+
 " Mouse
 set mouse=a                   " Enable mouse support
 
